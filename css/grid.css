@@ -1,0 +1,43 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    transition: background-color .2s, color .2s;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5 , h6 {
+    margin: 20px;
+}
+
+em {
+    color: rgb(143, 38, 31);
+}
+
+b {
+    background-color: rgb(199, 58, 222);
+}
+
+u {
+    background-color: orange;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
